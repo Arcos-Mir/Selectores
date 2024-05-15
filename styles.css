@@ -1,0 +1,31 @@
+/* selector de hijos ">"
+los que estan directos de un padre
+por ejemplo div > p {}*/
+div > p {
+    font-size: 20px;
+    color: blueviolet;
+}
+/* selector de atributos
+nos permite seleccionar por los atributos
+por ejemplo : input [type] {} significa que todos los que b
+tengan el atributo type se le aplicaran los estilos,
+o atributos y valor po ejemplo:
+input [type="text"] {}
+*/
+
+/*herencia: los estilos se heredan a los hijos
+por ejemplo si damos solo estilos al body todo
+lo que se encuentre dentro de body heredara 
+dichos estilos a menos que se le indique lo
+contrario o se le den estilos las partes de manera
+individual
+*/
+body {
+    font-size: 20px;
+    color: blue;
+}
+
+article {
+    font-size: 16px;
+    color:black;
+}
